@@ -10,10 +10,10 @@ inline void advanceStuff() {
 }
 
 
-void badWayOfDoingThings(int a, int b) {
+void badWayOfDoingThings(int a, int b);/* {
     if (a > b) std::cout << a << " is bigger than " << b << std::endl;
     else std::cout << a << " is not bigger than " << b << std::endl;
-}
+}*/
 
 #endif // BAR_H
 
