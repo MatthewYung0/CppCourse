@@ -9,8 +9,7 @@ int main()
     printf("%s %s\n",str1,str2);
 
     /* concatenate or combine both str1 & str2 to str1 */
-    strcat(str1,str2);
-    printf("%s %s\n",str1,str2);
+  printf("%s\n", strcat(str1,str2));
 
     /* get the length of both str1 & str2 without the NULL terminator*/
     len1 = strlen(str1);
